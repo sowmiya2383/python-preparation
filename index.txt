@@ -1,0 +1,43 @@
+**Python Preparation — Day 1 (Numbers Basics)**
+
+1️⃣ Count Digits in a Number
+-> Write a program to count number of digits in a given integer.
+
+Test Cases
+Input: 5 → Output: 1
+Input: 1000 → Output: 4
+Input: 0 → Output: 1   (edge case)
+
+2️⃣ Reverse a Number
+-> Reverse the digits of a number without converting to string.
+
+Test Cases
+Input: 1234 → Output: 4321
+Input: 1200 → Output: 21
+Input: 10020 → Output: 2001
+
+3️⃣ Palindrome Number
+-> Check whether a number is palindrome or not.
+
+Test Cases
+121 → True
+123 → False
+0 → True
+
+4️⃣ Armstrong Number
+-> A number is Armstrong if sum of each digit power number of digits equals the number.
+
+Test Cases
+153 → True
+9474 → True
+123 → False
+370 → True
+
+5️⃣ Prime Number Check
+-> Check whether a number is prime.
+
+Test Cases
+1 → Not Prime
+2 → Prime
+17 → Prime
+21 → Not Prime
