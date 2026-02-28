@@ -1,0 +1,5 @@
+str=input("Enter a sentence:")
+a=str.split()
+print(a)
+a=''.join(a)
+print(a)
