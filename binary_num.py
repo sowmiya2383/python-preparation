@@ -1,4 +1,4 @@
-n=int(input())
+n=int(input("Enter a number:"))
 binary=bin(n)[2:]
 toggle=""
 for i in binary:
