@@ -1,10 +1,17 @@
 n=int(input())
 arr=list(map(int,input().split()))
 k=int(input())
+used = [False] * n
 count=0
 for i in range(n):
+    if used[i]:
+        continue
     for j in range(i+1,n):
+        if used[j]:
+               continue
         if arr[i]+arr[j]==k:
-            used=[False]*n
             count+=1
-print(used)
+            used[i] = True
+            used[j] = True
+            break 
+print(count)
